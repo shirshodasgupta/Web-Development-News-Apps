@@ -1,0 +1,143 @@
+/* styles.css 
+   Project: Static Design
+   Author: Shirsho Dasgupta
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+* {  
+   box-sizing: border-box;
+}
+
+body {
+   background-color: white;
+}
+
+#container {
+   width: 755px;
+   height: 1043px;
+   background-color: white;
+   border-top: 5px solid black;
+   border-left: 2px solid #C0C3C4;
+   border-right: 2px solid #C0C3C4;
+   border-bottom: 5px solid black;
+   margin-left: 22.5%;
+   margin-right: 25%;
+   margin-top: 10px;
+   margin-bottom: 10px
+}
+
+.headerBox {
+   width: 750px
+   height: 300px;
+   background-color: #C0C3C4;
+   overflow: hidden;
+   padding: 10px;
+}
+
+.headerBox img{
+   float: right;
+   max-width: 100%;
+   max-height: 100%;
+   border: 2px solid black;
+   margin-right: 20px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+
+.headerBox h1{
+   color: #4A4A4A;
+   padding-left: 15px;
+   
+}
+
+.headerBox p{
+   color: #77797A;
+   width: 66%;
+   overflow: hidden;
+   padding-left: 15px;
+
+}
+
+.galleryBox{
+   width: 750px;
+   height: 480px;
+   background-color: white;
+   overflow: hidden;
+   padding-left: 25px;
+   padding-right: 10px;
+   padding-top: 10px;
+}
+
+.thumb{
+   float: left;
+   border: 2px solid #C0C3C4;
+   background-color: #E6E9EB;
+   margin: 5px;
+   padding: 5px;
+}
+
+.thumb img{
+   border: 1px solid black;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+
+.footerBox {
+   background-color: #DCE1E3;
+   padding-left: 10px;
+   padding-top: 30px;
+   padding-right: 10px;
+   overflow: hidden;
+   height: 320px;
+   padding-left: 30px;
+   border-top: 2px solid #C0C3C4;
+}
+
+.footerBox img{
+   float: left;
+   border: 2.5px solid black;
+   width: 55%;
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.footerBox h3{
+   overflow: hidden;
+   padding-left: 15px;
+   padding-top: 35px;
+}
+
+.footerBox p{
+   overflow: hidden;
+   padding-left: 15px;
+   color: #77797A;
+   padding-right: 10px;
+}
+
+.labelBox{
+   max-height: 100px;
+   background-color: #C0C3C4;
+   margin-top: -16px;
+}
+
+.labelBox p{
+   padding: 5px;
+}
+
+
+
+
+
+
+
+
+

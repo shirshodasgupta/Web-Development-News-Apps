@@ -1,0 +1,85 @@
+/* style.css 
+   Author: Shirsho Dasgupta
+   Date: 27 Jan 2019
+*/
+
+/** {
+	box-sizing: border-box;
+}*/
+
+#container {
+	margin-left: 40px;
+}
+
+#header {
+	margin-bottom: 50px;
+}
+
+.gallery {
+	border: 3px solid black;
+	width: 565px;
+	height: 570px;
+	display: block;
+}
+
+.thumb {
+	float: left;
+	padding: 10px;
+	border: 1.5px solid red;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 5px;
+	background-color: teal;
+}
+
+.thumb_cap {
+	display: none;
+}
+
+#displaybox {
+	width: 565px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: #FFDA70;
+	margin-top: 20px;
+	margin-left: 4px;
+}
+
+#img_display img{
+	float: left;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+#img_display h3 {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#total_display {
+	float: left;
+	border-left: 2px solid grey;
+	margin-left: 70px;
+	margin-top: -58px;
+	padding: 0px;
+	height: 220px;
+	width: 250px;
+	position: relative;
+}
+
+#total_display h3 {
+	margin-left: 25px;
+}
+
+#total_display p {
+	font-size: 100px;
+	margin-top: 40px;
+	padding-bottom: 0px;
+	margin-left: 30px;
+}
+
+#reset {
+	position: absolute;
+	margin-left: 450px;
+	top: 900px;
+}

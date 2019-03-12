@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Form Field Submissions</title>
+    
+	<!-- your CSS stylesheet -->	
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+<div id="container">
+
+    <h1>Interactivity and Form-Submissions!</h1>
+    
+    
+    <hr>
+    
+    <!-- Fade in/out caption but using jQuery -->
+
+    <h2>Fade a caption in and out on rollover</h2>
+    
+    <div id="problem1" class="thumb">
+  		<img src="img/medium07.jpg" />
+        <div class = "caption1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque purus ut condimentum pulvinar.</p>
+        </div>
+  	</div>
+
+    <!--  -->
+	<hr>
+    
+    <!--  -->
+
+    <h2>Get/Set elements:</h2>
+    <p>Move "letters" from one div into a new div. Add a reset button that clears out the "chalkboard." </p>
+    
+    <div id="problem2">
+    	<div id="allletters">
+			<div class="letter">A</div>
+			<div class="letter">B</div>
+			<div class="letter">C</div>
+			<div class="letter">D</div>
+			<div class="letter">E</div>
+			<div class="letter">F</div>
+			<div class="letter">G</div>
+			<div class="letter">H</div>
+			<div class="letter">I</div>
+			<div class="letter">J</div>
+			<div class="letter">K</div>
+			<div class="letter">L</div>
+			<div class="letter">M</div>
+			<div class="letter">N</div>
+			<div class="letter">O</div>
+			<div class="letter">P</div>
+			<div class="letter">Q</div>
+			<div class="letter">R</div>
+			<div class="letter">S</div>
+			<div class="letter">T</div>
+			<div class="letter">U</div>
+			<div class="letter">V</div>
+			<div class="letter">W</div>
+			<div class="letter">X</div>
+			<div class="letter">Y</div>
+			<div class="letter">Z</div>
+		</div>    
+		<div id="chalkboard"></div>
+		<button id="p2reset">Reset chalkboard</button>
+   	</div>
+    
+    <!--  -->
+
+<hr>
+    <!-- Hide/show or fade in/out an element on click -->
+    
+    <h2>Get/Set attributes: </h2>
+    <p>Interactive photo gallery. Also add an action that changes the border color of the image on rollover/hover.</p>
+
+    <div id="problem3">
+        <div class="photo">
+            <img src="img/thumb01.jpg" big = "img/photo01.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb02.jpg" big = "img/photo02.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb03.jpg" big = "img/photo03.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb04.jpg" big = "img/photo04.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb05.jpg" big = "img/photo05.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb06.jpg" big = "img/photo06.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb07.jpg" big = "img/photo07.jpg">
+        </div>
+        <div class="photo">
+            <img src="img/thumb08.jpg" big = "img/photo08.jpg">
+        </div>
+    </div>
+    
+    <div id="bigphoto">
+        <img src="img/photo09.jpg">
+    </div>
+    
+      <h2>Get/Use form input:</h2>
+      <p>Get user input from a form field: make user pick a color and then dynamically update the image items background-color and border color to user’s choice.</p>  
+    
+    <input id="p4_bgcolor" type="text" placeholder="background color"><br>
+    <input id="p4_bordercolor" type="text" placeholder="border color">
+    <button id="problem4_btn">Change colors</button>
+    
+    <div id="problem4">
+        <div class="photo">
+            <img src="img/thumb06.jpg" >
+        </div>
+        <div class="photo">
+            <img src="img/thumb07.jpg" >
+        </div>
+        <div class="photo">
+            <img src="img/thumb08.jpg"  >
+        </div>
+    </div>
+
+    <!-- -->
+
+<hr>
+
+    <!-- PThe mini-calculator -->
+    
+    <h2>The mini-calculator</h2>
+    
+    <div id="problem5">
+    	
+		<h3>Input numbers:</h3>
+		<input id="inputno1" type="text"> <input id="inputno2" type="text">
+		<div id="buttons">
+			<button id="add">Add</button>
+			<button id="subtract">Subtract</button>
+			<button id="multiply">Multiply</button>
+			<button id="divide">Divide</button>
+		</div>
+		
+		<h3>Total:</h3>
+		
+		<div id="total"></div><!--close total-->
+		
+		
+		 
+   	</div>
+    <!-- END PROBLEM 5 -->
+  	
+<hr>
+
+ 
+ 	
+</div><!-- end container -->
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>

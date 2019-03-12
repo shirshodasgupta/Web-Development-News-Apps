@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simultaneous Image/Number Selector</title>
+    
+	<!-- your CSS stylesheet -->	
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	
+
+
+	<!-- YOUR HTML CODE HERE -->
+	<div id="container">
+
+		<div id="header">
+			<h1 id="greetings">Hello. What's your name?</h1>
+	 		<input id="name" type="text" name="fname" placeholder="enter your name here">
+	 		<button id="btn_name">submit your name</button>
+		</div>
+
+
+			<div class="gallery">
+
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy01.jpg" photo_id="izzy01" num_val="1" />
+					<p class="thumb_cap">The number 1</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy02.jpg" photo_id="izzy02" num_val="2" />
+					<p class="thumb_cap">The number 2</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy03.jpg" photo_id="izzy03" num_val="3" />
+					<p class="thumb_cap">The number 3</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy04.jpg" photo_id="izzy04" num_val="4" />
+					<p class="thumb_cap">The number 4</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy05.jpg" photo_id="izzy05" num_val="5" />
+					<p class="thumb_cap">The number 5</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy06.jpg" photo_id="izzy06" num_val="6" />
+					<p class="thumb_cap">The number 6</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy07.jpg" photo_id="izzy07" num_val="7" />
+					<p class="thumb_cap">The number 7</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy08.jpg" photo_id="izzy08" num_val="8" />
+					<p class="thumb_cap">The number 8</p>
+				</div>
+
+				<div class="thumb">
+					<img class="thumb_img" src="img/izzy09.jpg" photo_id="izzy09" num_val="9" />
+					<p class="thumb_cap">The number 9</p>
+				</div>
+
+
+			</div>
+
+			<div id="displaybox">
+
+
+				<div id="img_display">
+					<h3 class="display_text">You picked:</h3>
+					<img id="display_img" src="img/izzy00.jpg"/>
+				</div>
+
+				<div id="total_display">
+					<h3 class="display_text">Your total is now:</h3>
+					<p id="total">0</p>
+				</div>
+
+				<button id="reset">Reset Total</button>
+
+			</div>
+	</div>
+
+
+	
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

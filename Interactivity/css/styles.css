@@ -1,0 +1,211 @@
+/* styles.css 
+   Project: Interactivity!
+   Author: Shirsho Dasgupta
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+
+body { height: 3000px; }
+
+/* Basic styling */
+
+#container {
+	width: 800px;
+	margin: 0px auto;
+}
+
+.thumb {
+	border: 3px solid olive;
+	background-color: palegoldenrod;
+	margin: 0px 20px 20px 0px;
+	padding: 20px;
+	width: 206px;
+}
+
+.thumb img {
+	width: 200px;
+	border: 2px solid olive;
+}
+
+
+
+/* Hide/show or fade in/out image when either the image div or the button is clicked. */
+
+#problem1.thumb {
+	height: 206px; /* leave in template */
+}
+
+#p1_btn { /* leave in template */
+	padding: 5px;
+	background-color: peachpuff;
+}
+
+
+
+/* Fade a caption in and out on rollover/hover. You will need to add the HTML/CSS for the caption. */
+
+
+#problem2.thumb  {
+	position: relative;
+}
+
+#problem2.thumb img{
+	display: block;
+}
+
+
+
+.caption2 {
+	position: absolute;
+	color: white;
+	border: solid olive 1.5pt;
+	background: rgba(24,57,32,0.8);
+	height: 190px;
+	margin-top: 20px;
+	padding: 5px;
+	width: 190px;
+	top: 0px;
+	display: none;
+
+}
+
+/* Add a tooltip (with an image as well as some text). You will need to add the HTML/CSS for the tooltip that will appear/disappear on rollover/hover. */
+
+#problem3.thumb {
+  background-color: peachpuff;
+  position: relative;
+}
+
+
+#toolBox{
+	border: 2.5px solid olive;
+	width: 450px;
+	height: 135px;
+	padding: 0px;
+	position: absolute;
+	margin-top: -274px;
+	margin-left: 250px;
+	background-color: palegoldenrod;
+	display: none;
+}
+
+#toolBox img{
+	display: block;
+	height: 110px;
+	margin: 10px;
+	width: 110px;
+	float: left;
+	position: relative;
+	border: 2px solid olive;
+}
+
+.caption3{
+	margin-right: 8px;
+	position: relative;
+	font-size: 0.9em;
+	padding-left: 4px;
+	padding-top: 20px;
+	}
+
+
+
+/* Change image border color and "gallery" background color on hover over each image. */
+
+#problem4.thumb {
+	width: 434px; /* leave in template */
+	padding: 5px;
+/*	background-color: palegoldenrod;*/
+}
+
+#problem4 img { 
+	margin: 5px; /* leave in template */
+	border: 10px solid olive;
+	width: 184px;
+}
+
+
+
+/* Animate (move) the image box to the right 400px, down 100px, increase the box size to 200px when the “move me” button is clicked. Return the image box back to it’s original position when “move me back” button is clicked.  */
+
+#problem5.thumb {
+	width: 103px;
+	position: relative;
+}
+
+#problem5 img {
+	width: 97%;
+}
+
+/* Add captions that slide up and down on rollover/hover. You will need to add the HTML/CSS for the captions (all three) that will slide up/down on rollover/hover.  */
+
+#problem6 {
+	overflow: hidden;
+}
+
+#problem6 .thumb {
+	float: left;
+	width: 200px;
+	padding: 0px;
+	position: relative;
+}
+
+#problem6 img {
+	width: 100%;
+	height: 100%;
+	border: 0px solid olive;
+	margin-bottom: -4px;
+}
+
+.caption6{
+   background-color: rgba(238, 130, 238,0.6);
+   height: 60%;
+   position: absolute;
+   padding: 5px;
+   bottom: 0px; 
+   width: 95%;
+   color: white;
+   display: block;
+   border-top: 2px solid olive;
+   font-size: 0.9em;
+   display: none;
+}
+
+
+/* Scale the images on rollover. */
+
+
+#problem7.thumb {
+	width: 434px; /* leave in template */
+}
+
+#problem7 img { 
+	margin: 5px; /* leave in template */
+}
+
+#problem7 img:hover {
+	transform: scale(1.5);
+    transition: all 0.7s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

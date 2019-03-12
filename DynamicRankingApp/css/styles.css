@@ -1,0 +1,116 @@
+/* styles.css 
+   Project: Dynamic Ranking App
+   Author: Shirsho Dasgupta
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+
+.container {
+   padding: 15px;
+   width: 1000px;
+   background-color: black;
+   position: relative;
+   min-height: 750px;
+   margin-left: 10px;
+}
+
+.rankingList {
+   width: 100%;
+   float: left;
+}
+
+.list {
+   font-size: 1.5em;
+   font-weight: bold;
+   text-align: center;
+   border: 2px solid firebrick;
+   padding: 1.5px;
+   width: 20%;
+   cursor: pointer;
+   margin-left: 5px;
+   margin-bottom: 5px;
+}
+
+.button {
+   position: absolute;
+   left: 250px;
+   border-radius: 25px;
+   width: 100px;
+}
+
+
+.results {
+   position: absolute;
+   padding: 5px;
+   top: 10px;
+   border: 1.5px solid gold;
+   height: 735px;
+   color: snow;
+   margin-left: 350px;
+   width: 600px;
+}
+
+
+.items {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   border: 2px solid firebrick;
+   padding:0;
+   width: 48%;
+   cursor: pointer;
+   margin-left: 6px;
+   margin-bottom: 5px;
+   float: left;
+   display: flex;
+}
+
+.image {
+   width: 20px;
+   height: 63px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   margin-left: 5px;
+   margin-top: 2px;
+   float: left;
+   flex: 2;
+}
+
+.image img {
+   max-height: 100%;
+   max-width: 100%;
+   border: 1px solid black;
+}
+
+.text {
+   flex: 4;
+   text-align: left;
+   padding: 0;
+   margin-left: 5px;
+}
+
+.text h6 {
+   margin-top: 5px;
+   margin-bottom: 10px;
+
+}
+
+.text p {
+   font-size: 3%;
+   font-weight: 1pt;
+}
+
+
+
+
+
+
